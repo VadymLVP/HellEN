@@ -1,0 +1,68 @@
+.program-section {
+  background-color: #111518;
+  /* font-family: Montserrat; */
+}
+
+/* my program title */
+.title-container {
+  color: #ffffff;
+  /* position: absolute; */
+  margin-left: 184;
+  bottom: 100;
+}
+
+.program-section-list :before {
+  border: solid 1px;
+  width: 100vw;
+  transform: translateX(calc((-100vw + 1210px) / 2));
+  height: 2px;
+  left: 0;
+  top: 14px;
+}
+
+.program-section-item {
+  display: block;
+}
+
+.program-section-subtitle {
+  color: #ffffff;
+}
+
+.caption {
+  color: #ff6b09;
+}
+
+.theme {
+  color: #b9b9b9;
+  opacity: 0.5;
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  font-size: 11px;
+  /* line-height: 28px; */
+}
+
+.img-dash {
+}
+
+/* why i am chosen */
+
+.advantage-section {
+  background-color: #fff;
+}
+.advantage-title {
+  color: #ffffff;
+}
+
+.advantage-list {
+}
+.advantage-item {
+}
+.advantage-number {
+  color: #ff6b09;
+}
+.advantage-subtitle {
+  color: #111518;
+  /* display: flex;
+  align-items: center;
+  letter-spacing: 0.08em; */
+}
