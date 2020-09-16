@@ -1,3 +1,46 @@
-.our-programm {
-  background: #111518;
-}
+.program-section {
+  background-color: #111518; }
+
+/* my program title */
+.title-container {
+  color: #ffffff;
+  /* position: absolute; */
+  margin-left: 184;
+  bottom: 100; }
+
+.program-section-inner {
+  padding: 0%; }
+
+.program-section-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px; }
+
+.program-section-item {
+  display: block; }
+
+.program-section-subtitle {
+  color: #ffffff;
+  font-size: 24px; }
+
+.caption {
+  color: #ff6b09;
+  display: flex;
+  align-items: center;
+  font-size: 14px; }
+
+.dash::before {
+  content: "";
+  display: block;
+  background-color: #ff6b09;
+  height: 2px;
+  width: 16px;
+  margin-right: 6px; }
+
+.theme {
+  color: #b9b9b9;
+  opacity: 0.5;
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  font-size: 11px;
+  /* line-height: 28px; */ }
