@@ -2,12 +2,21 @@
   background-color: #111518;
 }
 
+ul {
+  list-style: none;
+}
+
 /* my program title */
 .title-container {
   color: #ffffff;
-  /* position: absolute; */
-  margin-left: 184;
-  bottom: 100;
+  margin-left: 184px;
+  bottom: 100px;
+  font-size: 46px;
+  line-height: 60px;
+  padding-top: 120px;
+  padding-left: 184px;
+  padding-right: 630px;
+  padding-bottom: 100px;
 }
 
 .program-section-inner {
@@ -17,7 +26,8 @@
 .program-section-list {
   display: flex;
   justify-content: space-between;
-  max-width: 992px;
+  max-width: 1680px;
+  margin: 0 auto;
 }
 
 .program-section-item {
@@ -26,14 +36,18 @@
 
 .program-section-subtitle {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 28px;
+  margin-bottom: 25px;
 }
 
 .caption {
   color: $color-main;
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 10px;
 }
 
 .dash {
@@ -49,8 +63,35 @@
 .theme {
   color: #b9b9b9;
   opacity: 0.5;
-  /* font-style: normal; */
-  /* font-weight: 500; */
-  font-size: 11px;
-  /* line-height: 28px; */
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.span {
+  display: flex;
+  flex-direction: column;
+}
+
+// why i am chosen
+
+.advantage-section {
+  background-color: #ffffff;
+  margin: 180px;
+
+  .advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px 84px;
+  }
+}
+.advantage-subtitle {
+  color: #111518;
+  line-height: 24px;
+  font-size: 20px;
+}
+
+.advantage-item {
+  width: 30%;
 }
