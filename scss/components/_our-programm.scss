@@ -1,5 +1,8 @@
 .program-section {
   background-color: #111518;
+  background-image: url(/img/teacher.png);
+  background-repeat: no-repeat;
+  background-position: 0 80%;
 }
 
 ul {
@@ -20,8 +23,7 @@ ul {
 }
 
 .border {
-  border: 1px solid;
-  color: #ffffff;
+  border: 1px solid white;
 }
 
 .program-section-inner {
@@ -92,7 +94,9 @@ ul {
 
 .advantage-section {
   background-color: #ffffff;
-  margin: 180px;
+  margin: auto 180px;
+  // z-index: 9;
+  position: relative;
 
   .advantage-list {
     display: flex;
