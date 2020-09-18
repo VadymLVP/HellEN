@@ -19,6 +19,11 @@ ul {
   padding-bottom: 100px;
 }
 
+.border {
+  border: 1px solid;
+  color: #ffffff;
+}
+
 .program-section-inner {
   padding: 0%;
 }
@@ -29,6 +34,15 @@ ul {
   max-width: 1680px;
   margin: 0 auto;
 }
+
+// .program-section-list::before {
+//     content: '';
+//     width: 100vw;
+//     transform: translateX(calc((-100vw + 1210px)/2));
+//     height: 2px;
+//     left: 0;
+//     top: 14px;
+// }
 
 .program-section-item {
   display: block;
