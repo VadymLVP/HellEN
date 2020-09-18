@@ -1,5 +1,8 @@
 .program-section {
-  background-color: #111518; }
+  background-color: #111518;
+  background-image: url(/img/teacher.png);
+  background-repeat: no-repeat;
+  background-position: 0 80%; }
 
 ul {
   list-style: none; }
@@ -24,6 +27,9 @@ ul {
   justify-content: space-between;
   max-width: 1680px;
   margin: 0 auto; }
+
+.border {
+  border: solid 1px white; }
 
 .program-section-item {
   display: block; }
@@ -63,7 +69,7 @@ ul {
 
 .advantage-section {
   background-color: #ffffff;
-  margin: 180px; }
+  margin: auto 180px; }
   .advantage-section .advantage-list {
     display: flex;
     flex-wrap: wrap;
