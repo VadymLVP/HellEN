@@ -119,3 +119,140 @@ ul {
 .advantage-item {
   width: 30%;
 }
+
+.program-section {
+  background-color: #111518;
+
+  padding: 50px 20px;
+
+  .program__title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+  }
+
+  .program-list {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 25px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 12px;
+      left: 0;
+      width: 1px;
+      height: 93%;
+      display: block;
+      background-color: #ffffff;
+      @media (min-width: 768px) {
+        height: 85%;
+      }
+    }
+  }
+  .subitem-container {
+    @media (min-width: 768px) {
+      display: grid;
+      grid-gap: 50px;
+      grid-template-columns: repeat(3, 180px);
+    }
+  }
+  .item__title {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: -6px;
+      display: block;
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      background-color: #ff6b09;
+    }
+  }
+
+  .subitem__title {
+    color: #ff6b09;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    @media (min-width: 768px) {
+      margin: 0;
+    }
+  }
+  .subitem__text {
+    color: #b9b9b9;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: left;
+  }
+  //advantage section
+  .advantage-section {
+    transform: translateY(50%);
+    background-color: #fff;
+    padding: 20px 30px;
+    @media (min-width: 768px) {
+      padding: 30px 100px;
+      display: grid;
+      grid-template: repeat(3, 1fr) / 1fr 1fr;
+      grid-column-gap: 50px;
+    }
+  }
+  .advantage__title {
+    color: #ff6b09;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: left;
+  }
+  .advantage-subtitle {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: left;
+  }
+}
+
+.mobile {
+  @media (min-width: 1440px) {
+    display: none !important;
+  }
+}
+.desktop {
+  @media (max-width: 1440px) {
+    display: none !important;
+  }
+}

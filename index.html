@@ -1,203 +1,339 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hellen</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/main.min.css" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hellen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./scss/main.css" />
+</head>
+
 </html>
 
 <!-- our programm -->
 
 <section class="program-section">
-  <h2 class="title-container">Наша программа</h2>
+  <div class="mobile">
+    <h2 class="program__title">Наша программа</h2>
 
-  <div class="step-line">
-    <div class="circle-container">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+    <div class="program-list">
+      <div class="item">
+        <h5 class="item__title">1 семестр</h5>
+        <div class="subitem-container">
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Grammar</h6>
+            <p class="subitem__text">Nouns & Articles
+              Adjectives & Adverb</p>
+          </div>
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Vocabulary</h6>
+            <p class="subitem__text">Family & Relations
+              People & Society</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <h5 class="item__title">2 семестр</h5>
+        <div class="subitem-container">
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Grammar</h6>
+            <p class="subitem__text">Pronouns
+              Active Voice
+              Passive Voice</p>
+          </div>
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Vocabulary</h6>
+            <p class="subitem__text">Home
+              School
+              Work</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <h5 class="item__title">3 семестр</h5>
+        <div class="subitem-container">
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Grammar</h6>
+            <p class="subitem__text">Modal verbs
+              Infinitive
+              Gerund
+              Participle: 1, 2</p>
+          </div>
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Vocabulary</h6>
+            <p class="subitem__text">Travel & Tourism
+              Culture & Free Time
+              Sport</p>
+          </div>
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Writing</h6>
+            <p class="subitem__text">Informal Letter</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <h5 class="item__title">4 семестр</h5>
+        <div class="subitem-container">
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Grammar</h6>
+            <p class="subitem__text">Clauses: Conditional and Wishes
+              Direct / Reported speech
+              Preposition
+              Conjunction
+              Numeral
+            </p>
+          </div>
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Vocabulary</h6>
+            <p class="subitem__text">Healthy Living
+              Nature & Environment
+              Money
+            </p>
+          </div>
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Writing</h6>
+            <p class="subitem__text">Formal Letter
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <h5 class="item__title">5 семестр</h5>
+        <div class="subitem-container">
+          <div class="program-subitem">
+            <h6 class="subitem__title">— Grammar</h6>
+            <p class="subitem__text">Revision
+              Tests
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="border"></div>
-  </div>
 
-  <ul class="program-section-list">
-    <li class="program-section-item">
-      <h3 class="program-section-subtitle">1 семестр</h3>
 
-      <ul class="program-section-inner">
-        <li class="list-item">
-          <p class="caption dash"><span>Grammar</span></p>
-          <p class="theme">
-            <span class="theme span">Nouns &amp; Articles</span>
-            <span class="theme span">Adjectives &amp; Adverb</span>
-          </p>
-        </li>
-        <li class="list-item">
-          <p class="caption dash"><span>Vocabulary</span></p>
-
-          <p class="theme">
-            <span class="theme span">Family &amp; Relations</span>
-            <span class="theme span">People &amp; Society</span>
-          </p>
-        </li>
-      </ul>
-    </li>
-    <li class="program-section-item">
-      <h3 class="program-section-subtitle">2 семестр</h3>
-
-      <ul class="program-section-inner">
-        <li class="list-item">
-          <p class="caption dash"><span>Grammar</span></p>
-
-          <p class="theme">
-            <span class="theme span">Pronouns</span>
-            <span class="theme span">Active Voice</span>
-            <span class="theme span">Passive Voice</span>
-          </p>
-        </li>
-        <li class="list-item">
-          <p class="caption dash"><span>Vocabulary</span></p>
-
-          <p class="theme">
-            <span class="theme span">Home</span>
-            <span class="theme span">School</span>
-            <span class="theme span">Work</span>
-          </p>
-        </li>
-      </ul>
-    </li>
-    <li class="program-section-item">
-      <h3 class="program-section-subtitle">3 семестр</h3>
-
-      <ul class="program-section-inner">
-        <li class="list-item">
-          <p class="caption dash"><span>Grammar</span></p>
-
-          <p class="theme">
-            <span class="theme span">Modal verbs</span>
-            <span class="theme span">Infinitive</span>
-            <span class="theme span">Gerund</span>
-            <span class="theme span">Participle: 1, 2</span>
-          </p>
-        </li>
-        <li class="list-item">
-          <p class="caption dash"><span>Vocabulary</span></p>
-          <p class="theme">
-            <span class="theme span">Travel &amp; Tourism</span>
-            <span class="theme span">Culture &amp; Free Time</span>
-            <span class="theme span">Sport</span>
-          </p>
-        </li>
-
-        <li class="list-item">
-          <p class="caption dash"><span>Writing</span></p>
-          <p class="theme">
-            <span class="theme span">Informal Letter</span>
-          </p>
-        </li>
-      </ul>
-    </li>
-    <li class="program-section-item">
-      <h3 class="program-section-subtitle">4 семестр</h3>
-
-      <ul class="program-section-inner">
-        <li class="list-item">
-          <p class="caption dash"><span>Grammar</span></p>
-
-          <p class="theme">
-            <span class="theme span">Clauses: Conditional</span>
-            <span class="theme span">and Wishes</span>
-            <span class="theme span">Direct / Reported</span>
-            <span class="theme span">speech</span>
-            <span class="theme span">Preposition</span>
-            <span class="theme span">Conjunction</span>
-            <span class="theme span">Numeral</span>
-          </p>
-        </li>
-        <li class="list-item">
-          <p class="caption dash"><span>Vocabulary</span></p>
-
-          <p class="theme">
-            <span class="theme span">Healthy Living</span>
-            <span class="theme span">Nature &amp; Environment</span>
-            <span class="theme span">Money</span>
-          </p>
-        </li>
-
-        <li class="list-item">
-          <p class="caption dash"><span>Writing</span></p>
-          <p class="theme">
-            <span class="theme span">Formal Letter</span>
-          </p>
-        </li>
-      </ul>
-    </li>
-    <li class="program-section-item">
-      <h3 class="program-section-subtitle">5 семестр</h3>
-      <ul class="program-section-inner">
-        <li class="program-section-inner"></li>
-        <li class="list-item">
-          <p class="caption dash"><span>Test</span></p>
-
-          <p class="theme">
-            <span class="theme span">Revision</span>
-            <span class="theme span">Tests</span>
-          </p>
-        </li>
-      </ul>
-    </li>
-  </ul>
-
-  <!-- why i am chosen -->
-
-  <div class="advantage-section">
-    <ul class="advantage-list">
-      <li class="advantage-item">
-        <p class="caption dash">01</p>
+    <div class="advantage-section">
+      <div class="advantage-item">
+        <p class="advantage__title">— 01</p>
 
         <h3 class="advantage-subtitle">Обучение в малых командах</h3>
-      </li>
-      <li class="advantage-item">
-        <p class="caption dash">02</p>
+      </div>
+      <div class="advantage-item">
+        <p class="advantage__title">— 02</p>
 
         <h3 class="advantage-subtitle">Визуализированные конспекты</h3>
-      </li>
-      <li class="advantage-item">
-        <p class="caption dash">03</p>
+      </div>
+      <div class="advantage-item">
+        <p class="advantage__title">— 03</p>
 
         <h3 class="advantage-subtitle">
           Каждое занятие имеет цель и конкретный результат
         </h3>
-      </li>
-      <li class="advantage-item">
-        <p class="caption dash">04</p>
+      </div>
+      <div class="advantage-item">
+        <p class="advantage__title">— 04</p>
 
         <h3 class="advantage-subtitle">Реальные результаты преподавателя</h3>
-      </li>
-      <li class="advantage-item">
-        <p class="caption dash">05</p>
+      </div>
+      <div class="advantage-item">
+        <p class="advantage__title">— 05</p>
 
         <h3 class="advantage-subtitle">
           Программа курса соответствует требованиям МОН Украины
         </h3>
-      </li>
-      <li class="advantage-item">
-        <p class="caption dash">06</p>
+      </div>
+      <div class="advantage-item">
+        <p class="advantage__title">— 06</p>
 
         <h3 class="advantage-subtitle">Набор команд по уровням знаний</h3>
+      </div>
+      </ul>
+    </div>
+  </div>
+  <div class="desktop">
+    <h2 class="title-container">Наша программа</h2>
+
+    <div class="step-line">
+      <div class="circle-container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <div class="border"></div>
+    </div>
+
+    <ul class="program-section-list">
+      <li class="program-section-item">
+        <h3 class="program-section-subtitle">1 семестр</h3>
+
+        <ul class="program-section-inner">
+          <li class="list-item">
+            <p class="caption dash"><span>Grammar</span></p>
+            <p class="theme">
+              <span class="theme span">Nouns &amp; Articles</span>
+              <span class="theme span">Adjectives &amp; Adverb</span>
+            </p>
+          </li>
+          <li class="list-item">
+            <p class="caption dash"><span>Vocabulary</span></p>
+
+            <p class="theme">
+              <span class="theme span">Family &amp; Relations</span>
+              <span class="theme span">People &amp; Society</span>
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="program-section-item">
+        <h3 class="program-section-subtitle">2 семестр</h3>
+
+        <ul class="program-section-inner">
+          <li class="list-item">
+            <p class="caption dash"><span>Grammar</span></p>
+
+            <p class="theme">
+              <span class="theme span">Pronouns</span>
+              <span class="theme span">Active Voice</span>
+              <span class="theme span">Passive Voice</span>
+            </p>
+          </li>
+          <li class="list-item">
+            <p class="caption dash"><span>Vocabulary</span></p>
+
+            <p class="theme">
+              <span class="theme span">Home</span>
+              <span class="theme span">School</span>
+              <span class="theme span">Work</span>
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="program-section-item">
+        <h3 class="program-section-subtitle">3 семестр</h3>
+
+        <ul class="program-section-inner">
+          <li class="list-item">
+            <p class="caption dash"><span>Grammar</span></p>
+
+            <p class="theme">
+              <span class="theme span">Modal verbs</span>
+              <span class="theme span">Infinitive</span>
+              <span class="theme span">Gerund</span>
+              <span class="theme span">Participle: 1, 2</span>
+            </p>
+          </li>
+          <li class="list-item">
+            <p class="caption dash"><span>Vocabulary</span></p>
+            <p class="theme">
+              <span class="theme span">Travel &amp; Tourism</span>
+              <span class="theme span">Culture &amp; Free Time</span>
+              <span class="theme span">Sport</span>
+            </p>
+          </li>
+
+          <li class="list-item">
+            <p class="caption dash"><span>Writing</span></p>
+            <p class="theme">
+              <span class="theme span">Informal Letter</span>
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="program-section-item">
+        <h3 class="program-section-subtitle">4 семестр</h3>
+
+        <ul class="program-section-inner">
+          <li class="list-item">
+            <p class="caption dash"><span>Grammar</span></p>
+
+            <p class="theme">
+              <span class="theme span">Clauses: Conditional</span>
+              <span class="theme span">and Wishes</span>
+              <span class="theme span">Direct / Reported</span>
+              <span class="theme span">speech</span>
+              <span class="theme span">Preposition</span>
+              <span class="theme span">Conjunction</span>
+              <span class="theme span">Numeral</span>
+            </p>
+          </li>
+          <li class="list-item">
+            <p class="caption dash"><span>Vocabulary</span></p>
+
+            <p class="theme">
+              <span class="theme span">Healthy Living</span>
+              <span class="theme span">Nature &amp; Environment</span>
+              <span class="theme span">Money</span>
+            </p>
+          </li>
+
+          <li class="list-item">
+            <p class="caption dash"><span>Writing</span></p>
+            <p class="theme">
+              <span class="theme span">Formal Letter</span>
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="program-section-item">
+        <h3 class="program-section-subtitle">5 семестр</h3>
+        <ul class="program-section-inner">
+          <li class="program-section-inner"></li>
+          <li class="list-item">
+            <p class="caption dash"><span>Test</span></p>
+
+            <p class="theme">
+              <span class="theme span">Revision</span>
+              <span class="theme span">Tests</span>
+            </p>
+          </li>
+        </ul>
       </li>
     </ul>
+
+    <!-- why i am chosen -->
+
+    <div class="advantage-section">
+      <ul class="advantage-list">
+        <li class="advantage-item">
+          <p class="caption dash">01</p>
+
+          <h3 class="advantage-subtitle">Обучение в малых командах</h3>
+        </li>
+        <li class="advantage-item">
+          <p class="caption dash">02</p>
+
+          <h3 class="advantage-subtitle">Визуализированные конспекты</h3>
+        </li>
+        <li class="advantage-item">
+          <p class="caption dash">03</p>
+
+          <h3 class="advantage-subtitle">
+            Каждое занятие имеет цель и конкретный результат
+          </h3>
+        </li>
+        <li class="advantage-item">
+          <p class="caption dash">04</p>
+
+          <h3 class="advantage-subtitle">Реальные результаты преподавателя</h3>
+        </li>
+        <li class="advantage-item">
+          <p class="caption dash">05</p>
+
+          <h3 class="advantage-subtitle">
+            Программа курса соответствует требованиям МОН Украины
+          </h3>
+        </li>
+        <li class="advantage-item">
+          <p class="caption dash">06</p>
+
+          <h3 class="advantage-subtitle">Набор команд по уровням знаний</h3>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
